@@ -23,12 +23,6 @@
             E clicar no botão "Concluir Cadastro"
             Então o sistema deve exibir a mensagem de alerta: "Preencha todos os campos obrigatórios"
 
-            Exemplos:
-            | nome        | email                   | senha       | confirmação |
-            | ""          | ""                      | ""          | ""          |
-            | "Ana Silva" | ""                      | "senha@111" | "senha@111" |
-            | ""          | "ana@plataforma.com.br" | "senha@111" | "senha@111" |
-
             Esquema do Cenário: Cadastro de múltiplos usuários
             Quando preencher o <usuario>
             E a <senha>
